@@ -42,7 +42,7 @@ Create an ASCII art pattern!
 
 Lastly, Go back to the Python file
 At the top of the file you should see the input_file variable being set to open("sampleArt.txt", "r")
-Change the .txt file to be the ASCII art file that you just created
+Change the filename to be the name of the ASCII art file that you just created
 Run the function! What do you get?
 
 
