@@ -50,19 +50,19 @@ Style: DIM, NORMAL, BRIGHT, RESET_ALL
 
 def pickColor(character):
 
-	character = ord(character)
+	character = ord(character)	# What does this line do?
 
-	if character >= 0 and character < 32:
-		fontcolor = "RED"
+	if character >= 0 and character < 32:	# This line is an example of?
+		fontcolor = "YOUR COLOR HERE"
 	if character >= 32 and character < 64:
-		fontcolor = "YELLOW"
+		fontcolor = "YOUR COLOR HERE"
 	if character >= 64 and character < 96:
-		fontcolor = "BLUE"
+		fontcolor = "YOUR COLOR HERE"
 	if character >= 96 and character < 129:
-		fontcolor = "GREEN"
+		fontcolor = "YOUR COLOR HERE"
 
 	bgcolor = "BLACK"
-	return cprint(fontcolor, bgcolor)
+	return cprint(fontcolor, bgcolor) 	# What does this line do?
 
 
 """
