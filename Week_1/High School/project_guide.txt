@@ -1,0 +1,67 @@
+Welcome to the Week 1 Project Guide!
+
+This project will show you a few different things:
+
+1. How are characters and numbers related?
+2. What is ASCII art?
+3. What are: 
+	a. Variables?
+	b. If-statements?
+	c. Functions?
+	d. Function calls?
+	e. Parameters?
+	f. Looping
+4. What is a Python "module"? 
+5. How can we use modules to show things in the console (the terminal)?
+
+
+_____________________________
+
+Getting started:
+
+This project is an intro project, so ANova has designed most of the project for you already!
+
+However, there are still some parts that do not work :( Your job is to fill them out (and look cool while doing it B-) )!
+
+_____________________________
+
+Instructions
+
+Scroll to the pickColor() function.
+	1. Replace the parts that say "YOUR COLOR HERE" with colors from the color palette described in the comments.
+		a. Keep the quotation marks when you replace the color!
+	2. Change the numbers in the if-statements. What changes?
+	3. Add a 5th color using a new if-statement.
+		a. How many if-statements do you need to use all the possible colors?
+		b. Add 2 more colors.
+	4. Figure out the answers to the commented questions. Ask a mentor if you need help with any of them!
+
+Next, make a new file
+Call it my_art.txt
+Create an ASCII art pattern! 
+
+Lastly, Go back to the Python file
+At the top of the file you should see the input_file variable being set to open("sampleArt.txt", "r")
+Change the .txt file to be the ASCII art file that you just created
+Run the function! What do you get?
+
+
+_____________________________
+
+Questions (answer these here)
+
+What is a function? Give an example.
+What is a parameter? Give an example.
+What is a variable? Give an example.
+Which line has the for-loop? What does this line do?
+How do if-statements work?
+Which module or modules did we use in this project?
+Challenge: 
+	How does Python read your ASCII art file? 
+	How does it decide which color to put?
+	
+	(Hint: look at the bottom of the Python file.)
+
+
+_____________________________
+
