@@ -50,15 +50,15 @@ Style: DIM, NORMAL, BRIGHT, RESET_ALL
 
 def pickColor(character):
 
-	character = ord(character)	# What does this line do?
+	ascii_value = ord(character)	# What does this line do?
 
-	if character >= 0 and character < 32:	# This line is an example of?
+	if ascii_value >= 0 and ascii_value < 32:	# This line is an example of?
 		fontcolor = "YOUR COLOR HERE"
-	if character >= 32 and character < 64:
+	if ascii_value >= 32 and ascii_value < 64:
 		fontcolor = "YOUR COLOR HERE"
-	if character >= 64 and character < 96:
+	if ascii_value >= 64 and ascii_value < 96:
 		fontcolor = "YOUR COLOR HERE"
-	if character >= 96 and character < 129:
+	if ascii_value >= 96 and ascii_value < 129:
 		fontcolor = "YOUR COLOR HERE"
 
 	bgcolor = "BLACK"
