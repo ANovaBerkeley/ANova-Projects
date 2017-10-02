@@ -1,0 +1,18 @@
+Puzzle Path Project
+
+Problem: Turtle sprite needs to navigate maze to get points and win the prize at the finish line
+
+1. In order to complete the maze, the sprite must go to stage 1, then stage 2, then the finish square (50 Points!).
+- Create instructions to move Turtle Sprite from Start to Finish through stages 1 and 2.
+- The path you make MUST also use the blocks 'move_to_200_0' and 'move_to_100_40_rotate'.
+- Use 'update_score' every time you move to see your score change!
+
+2. As Turtle's PE Coach says, "Run through the finish line!" 
+- Go to the trophy next to finish for a score bonus of 100 points!
+
+3. Bonus: Try to go to all the white squares for a bonus score! 
+- Use 'update_score' every time you move to see your score change!
+
+4. Bonus: Keep Turtle Sprite looking fresh!
+- Give Turtle Sprite a new costume once it reaches a new stage!
+
