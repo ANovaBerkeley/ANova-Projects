@@ -12,6 +12,8 @@ Exercise #1: Secret Strings B-)
 Part 1: Construct a program that takes in a string 
 and returns a new string with the letters out of order (an anagram).
 
+Hint: To get the third letter in "ball," use "ball"[2]. To get the last letter, use "ball"[len(ball)].
+
 """
 
 def create_anagram(sequence):
@@ -43,5 +45,4 @@ b = "cat" + "woman"
 c = 3
 b = b * c
 a = c + 1
-c = a * "ball"
-print(a, b, c)
+c = a * "logic"
