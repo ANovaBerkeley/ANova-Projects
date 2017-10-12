@@ -1,0 +1,2 @@
+def pokeball(pokemon):
+    pass
